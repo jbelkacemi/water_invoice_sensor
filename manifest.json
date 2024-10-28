@@ -1,0 +1,10 @@
+{
+  "domain": "water_invoice_sensor",
+  "name": "Water Invoice Sensor",
+  "codeowners": ["@jbelkacemi"],
+  "dependencies": [],
+  "documentation": "https://github.com/home-assistant/example-custom-config/tree/master/custom_components/example_sensor/",
+  "iot_class": "cloud_polling",
+  "requirements": [],
+  "version": "0.1.0"
+}

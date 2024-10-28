@@ -1,0 +1,1 @@
+DOMAIN = "water_invoice_sensor"
