@@ -26,12 +26,13 @@ Añade la siguiente configuración en tu archivo `configuration.yaml`:
 ```yaml
 sensor:
   - platform: water_invoice
-    username: "TU_USERNAME" # en BASE64
-    password: "TU_PASSWORD" # en BASE64
-    deviceToken: "TU_DEVICE_TOKEN"
-    client_code: "TU_CODIGO_CLIENTE"
-    contract_reference: "TU_REFERENCIA_CONTRATO"
-    update_interval_hours: 24  # Opcional, predeterminado a 24 horas
+    username: "TU_USERNAME"  # Tu nombre de usuario en formato BASE64
+    password: "TU_PASSWORD"  # Tu contraseña en formato BASE64
+    deviceToken: "TU_DEVICE_TOKEN"  # Token del dispositivo, obtenido desde el panel en https://clientesagua.acciona.com/ al iniciar sesión
+    client_code: "TU_CODIGO_CLIENTE"  # Código de cliente proporcionado por Acciona
+    contract_reference: "TU_REFERENCIA_CONTRATO"  # Referencia de contrato proporcionada por Acciona
+    update_interval_hours: 24  # Intervalo de actualización en horas; opcional, el valor predeterminado es 24 horas
+
 ```
 ## Opciones de Configuración
 
