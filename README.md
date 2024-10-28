@@ -26,8 +26,8 @@ Añade la siguiente configuración en tu archivo `configuration.yaml`:
 ```yaml
 sensor:
   - platform: water_invoice
-    username: "TU_USERNAME"
-    password: "TU_PASSWORD"
+    username: "TU_USERNAME" # en BASE64
+    password: "TU_PASSWORD" # en BASE64
     deviceToken: "TU_DEVICE_TOKEN"
     client_code: "TU_CODIGO_CLIENTE"
     contract_reference: "TU_REFERENCIA_CONTRATO"
